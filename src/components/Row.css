@@ -1,0 +1,39 @@
+.row {
+  margin-left: 5%;
+  color: white;
+  font-size: 1.5rem;
+  margin-bottom: 50px;
+}
+
+.moviesPosters {
+  width: 100%;
+  display: flex;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  padding: 20px 10px 20px 0;
+  scrollbar-width: none;
+}
+
+.moviesPosters::-webkit-scrollbar {
+  display: none;
+}
+
+.poster {
+  object-fit: contain;
+  transition: all 0.45s;
+  margin-right: 20px;
+  max-height: 200px;
+  height: auto;
+}
+
+.poster:hover {
+  transform: scale(1.08);
+}
+
+.largeRow{
+  max-height: 400px;
+}
+
+.largeRow:hover {
+  transform: scale(1.09);
+}
